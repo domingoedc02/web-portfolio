@@ -1,0 +1,160 @@
+.name {
+  color: #626363;
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+.carreer {
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: 700;
+}
+.shortDescript {
+  color: #626363;
+  font-weight: 500;
+}
+span {
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 0 5px;
+}
+.miniCategory {
+  color: #626363;
+  font-weight: 500;
+  font-size: large;
+  letter-spacing: 2px;
+}
+.category {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+@keyframes adding-font-size {
+  from {
+    font-size: 42px;
+    /* background-color: #171717; */
+    opacity: 0.2;
+  }
+  to {
+    font-size: 45px;
+    /* background-color: white;
+    color: black; */
+    opacity: 1;
+  }
+}
+@keyframes remove-font-size {
+  from {
+    font-size: 45px;
+  }
+  to {
+    font-size: 42px;
+  }
+}
+@keyframes scaleImage {
+  from {
+    transform: scale(1);
+    border: 0px solid black;
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.8);
+    border: 5px solid white;
+    opacity: 0.5;
+  }
+}
+@keyframes removeScaleImage {
+  from {
+    transform: scale(0.8);
+    border: 5px solid white;
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(1);
+    border: 5px solid white;
+    opacity: 1;
+  }
+}
+@media viewProjectButton {
+  from {
+    border: none;
+    opacity: 0.2;
+  }
+  to {
+    border: 2px solid white;
+    opacity: 1;
+  }
+}
+@media removeViewProjectButton {
+  from {
+    border: 2px solid white;
+    opacity: 1;
+    cursor: pointer;
+  }
+  to {
+    border: none;
+    opacity: 0.2;
+    cursor: pointer;
+  }
+}
+@media myimageanimation {
+  from {
+    margin-left: 500px;
+    opacity: 0.2;
+  }
+  to {
+    margin-left: 100px;
+    opacity: 1;
+  }
+}
+.firstProjectViewButton:hover {
+  background-color: white;
+  color: black;
+}
+.secondProjectViewButton:hover {
+  background-color: white;
+  color: black;
+}
+.thirdProjectViewButton:hover {
+  background-color: white;
+  color: black;
+}
+.fourthProjectViewButton:hover {
+  background-color: white;
+  color: black;
+}
+.work {
+  font-size: 72px;
+}
+.work:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* .firstProjectDate{
+  color: #ede6d6;
+}
+.firstProjectName{
+  color: #ede6d6;
+  background-color: #626363;
+  opacity: 80%;
+}
+.firstProjectDescription{
+  color: #ede6d6;
+    background-color: #626363;
+    opacity: 80%;
+} */
+p a{
+  color: white;
+  text-decoration: none;
+}
+p a:hover {
+  color: black;
+  text-decoration: none;
+}
+.contactMe{
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.intro a{
+  color: black;
+}

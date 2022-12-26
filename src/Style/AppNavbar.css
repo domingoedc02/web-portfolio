@@ -1,0 +1,146 @@
+.Navbar {
+  background-color: transparent;
+  padding: 20px 10px;
+}
+.navs {
+  background-color: white;
+}
+.brandName:hover {
+  opacity: 60%;
+}
+nav .icon {
+  color: black;
+  font-size: 30px;
+  float: right;
+  cursor: pointer;
+}
+nav .logo {
+  font-size: 30px;
+}
+/* .menuBar {
+  padding-top: 50px;
+  height: 1800px;
+  overflow: hidden;
+  background-color: #171717;
+  animation: sliding-left-bg 2s;
+} */
+@keyframes menuBarClose {
+  from {
+    padding-top: 50px;
+    height: 1800px;
+    opacity: 1;
+  }
+  to {
+    padding-top: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+}
+@keyframes sliding-left-bg {
+  /* 0% {
+    border-radius: 100%;
+    height: 0px;
+  }
+  80% {
+    border-radius: 80%;
+    height: 700px;
+  }
+  100% {
+    border-radius: 0%;
+    height: 800px;
+  } */
+  from {
+    height: 0px;
+    /* opacity: 0.1;
+    background-color: white;
+    margin-left: -100%; */
+  }
+  to {
+    /* opacity: 1;
+    background-color: #171717;
+    margin-left: 0%; */
+    height: 1800px;
+  }
+}
+
+.text-left {
+  animation: sliding-top 1.2s;
+  color: white;
+}
+@keyframes sliding-top {
+  from {
+    opacity: 0.2;
+    margin-top: -100%;
+    background-color: white;
+    color: black;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0%;
+    background-color: #171717;
+    color: white;
+  }
+}
+.text-right {
+  color: white;
+  animation: sliding-tops 1.2s;
+}
+@keyframes sliding-tops {
+  from {
+    opacity: 0.2;
+    margin-top: -100%;
+    background-color: white;
+    color: black;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0%;
+    background-color: #171717;
+    color: white;
+  }
+}
+
+/* Menu Bar Link */
+.home {
+  display: block;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.home:hover {
+  text-decoration: underline;
+}
+
+.aboutMe {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.aboutMe:hover {
+  text-decoration: underline;
+}
+
+.projects {
+  display: block;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.projects:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  display: block;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.contact:hover {
+  text-decoration: underline;
+}

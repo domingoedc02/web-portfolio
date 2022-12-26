@@ -1,0 +1,48 @@
+.footerContainer {
+  /* padding: 25px; */
+  color: white;
+  margin-top: 30px;
+}
+a {
+  display: block;
+  text-align: center;
+}
+a:hover {
+  cursor: pointer;
+}
+
+.footers{
+  display: inline-block;
+  padding: 15px;
+}
+.sample{
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+}
+.sample2 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.copyRightRow{
+  background-color: black;
+  padding: 10px;
+}
+.copy{
+  margin: 0 auto;
+  text-align: center;
+}
+.copy h1{
+  display: inline-block;
+  text-align: center;
+}
+.copy a{
+  display: inline-block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.copy a:hover{
+  text-decoration: underline;
+}
