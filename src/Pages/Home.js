@@ -119,7 +119,7 @@ export default function Home(){
                             <Card.Text className="firstProjectDescription">
                                 Luxury e-commerse platform. Basic e-commerse design and not fully functional like payment, transactions etc.
                             </Card.Text>
-                            <p className="d-inline-block px-3 py-2 firstProjectViewButton" style={(project === 'first')? projectViewStyle: removeProjectViewStyle}>{(project === "first")? <a target={"_blank"} href="https://hein.domingoec.com/">View Project</a> : ""}</p>
+                            <p className="d-inline-block px-3 py-2 firstProjectViewButton" style={(project === 'first')? projectViewStyle: removeProjectViewStyle}>{(project === "first")? <a target={"_blank"} href="https://hein-fronend-l4r31a6t7-domingoedc02.vercel.app/">View Project</a> : ""}</p>
                         </Card.ImgOverlay>
                         </Card>
                     </Col>
